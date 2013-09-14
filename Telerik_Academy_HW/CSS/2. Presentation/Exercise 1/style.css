@@ -1,0 +1,26 @@
+p
+{
+	width: 700px;
+	height: 20px;
+	color:#0094ff;
+	font-size: 12pt;
+	font-family: Consolas;
+}
+
+
+p:first-letter
+{ 
+	font-family: Edwardian Script ITC;
+	color:#0094ff;
+	font-size: 32pt;
+}
+
+p:first-line
+{
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: Edwardian Script ITC;
+	src: url('Edwardian Script ITC.ttf');
+}

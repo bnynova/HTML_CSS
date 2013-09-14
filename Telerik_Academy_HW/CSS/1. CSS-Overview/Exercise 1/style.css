@@ -1,0 +1,44 @@
+body
+{
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	background: #595959;
+}
+
+thead
+{	
+	font-size: 14pt;
+	text-align: left;
+	color: #a7b1a4;
+}
+
+table tbody tr td{
+	width: 180px;
+	padding: 0;
+	margin: 0;
+}
+ 
+.def_text
+{	
+	font-style: italic;
+	color: #f1efec;
+}
+.def_text p:after
+{
+	content:":";
+}
+.des_text
+{
+	color:  #a7b1a4;
+}
+	
+a
+{
+	text-decoration:none;
+	color: #f2e8a7;
+}
+.no_act_support{
+	color: red;
+}
+.no_answ{
+	color: #d76a2a;
+}

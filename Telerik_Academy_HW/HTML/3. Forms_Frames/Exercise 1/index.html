@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="autor" content="Boyana Yordanova">
+	<meta charset="UTF-8">
+	
+	<title>Exercise 1</title>
+
+</head>
+
+<body>
+
+	<div id="form_table">
+	
+		<form method="post" action="">
+			<table border="1" id="table">
+				<tr>
+					<td>
+						<label>Last Name</label>
+					</td>	
+					
+					<td colspan="6">
+						<input type="text" name="last_name" value="Svetlin"/>
+					</td>
+				</tr>			
+				
+				<tr>
+					<td class="label">
+						<label>First Name</label>
+					</td>
+					
+					<td colspan="6">
+						<input type="text" name="first_name" value="Nakov" />
+					</td>
+				</tr>
+			
+				<tr>
+					<td>
+						<label>Adress</label>
+					</td>
+					
+					<td colspan="6">
+						<input type="text" name="adress" />
+					</td>
+				</tr>
+			
+				<tr>
+					<td >
+						<label>City</label>
+					</td>
+					
+					<td>
+						<input type="text" name="sity" />
+					</td>
+					
+					<td>
+						<label>State</label>
+					</td>
+					<td class="small">
+						<input type="text" name="state" />
+					</td>
+				</tr>
+			
+				<tr>
+					<td>
+						<label>Zip/Post Code</label>
+					</td>
+					
+					<td>
+						<input type="text" name="post_code" />
+					</td>
+				</tr>
+			
+				<tr>
+					<td>
+						<label>Country</label>
+					</td>
+					
+					<td>
+						<select>
+						  <option value="eng">England</option>
+						  <option value="bg">Bulgaria</option>
+						  <option value="gmn">Germany</option>
+						  <option value="spn">Spain</option>
+						</select>
+					</td>
+				</tr>
+			
+				<tr>
+					<td>
+						<label>Phone (Country code, area code, number)</label>
+					</td>
+					
+					<td>
+						<input type="text" name="country_code" />
+						<input type="text" name="area_code" />
+						<input type="text" name="number" />
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+						<label>Email</label>
+					</td>
+					
+					<td>
+						<input type="email" name="email"  />
+					</td>
+				</tr>
+			
+				<tr>
+					<td>
+						<label>Birth date</label>
+					</td>
+					
+					<td>
+						<label>Birth day</label>
+						<input type="text" name="month" />
+						
+						<label>Month</label>
+						<input type="text" name="month" />
+						
+						<label>Year(4 digits)</label>
+						<input type="text" name="month" />
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+						<label>Genre</label>
+					</td>
+					
+					<td>
+						<select>
+						  <option value="male">Male</option>
+						  <option value="female">Female</option>
+						</select>
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+						<label>Srarting date</label>
+					</td>
+					
+					<td>
+						<form action="">
+							<input type="radio" name="season" value="male" checked="checked" />Spring 2006
+							<input type="radio" name="season" value="female" />Summer 2006
+						</form>
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+						<label>Comments/Quastions</label>
+					</td>
+					<td>
+						<textarea type="text" name="comments" value="Please, send me more information about lodging"></textarea>
+					</td>
+				</tr>
+			
+				<tr>
+					<td colspan="7">
+						<input type="submit" name="submit" value="Submit" name="">
+						<input type="submit" name="clear" value="Clear this form" />
+					</td>
+				</tr>
+			</table>
+		</form>
+		
+	</div>
+	
+</body>
+</html>

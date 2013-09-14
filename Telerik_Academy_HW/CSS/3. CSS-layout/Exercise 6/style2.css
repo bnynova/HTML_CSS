@@ -1,0 +1,24 @@
+body {
+    font-size: 12px;
+    font-family: Arial, Trebuchet MS, tahoma, Verdana,Sans-Serif;
+}
+
+ul {
+    display: block;
+}
+
+li {
+    display: list-item;
+}
+
+a{
+    text-decoration: none;
+}
+
+img {
+    border: none;
+}
+
+
+
+

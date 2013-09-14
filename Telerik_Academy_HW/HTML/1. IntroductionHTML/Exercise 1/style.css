@@ -1,0 +1,15 @@
+ul li
+{
+	list-style: none;
+}
+ul li:before
+{
+	content:"-";
+	position:relative; 
+	left:-5px;
+}
+	
+ul li
+{ 
+	text-indent:-35px;
+}

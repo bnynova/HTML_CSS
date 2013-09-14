@@ -1,0 +1,49 @@
+body{
+	margin: 0;
+	padding: 0;
+	font: 10pt/1.2 "Gautami", sans-serif;
+}
+
+#content{
+	overflow: hidden;
+	background-color: #eeeeee;
+	border-radius: 3px;
+	margin: 0 auto;
+	width: 407px;
+	padding: 1px 9px 10px 11px;
+}
+
+#content h1{
+	font: 12pt/1.2 "Gautami", sans-serif;
+}
+
+img {
+	float: left;
+	border: 1px solid #aeaeac;
+	margin: 17px;
+}
+
+.category{
+	margin: 38px 0 0 0px;
+	height: 125px;
+	border: 1px solid #b4b4b4;
+	background-color: #fff;	
+}
+
+.category p{
+	float: right;
+	width: 200px;
+	padding-right: 20px;
+}
+
+.category .buttons {
+	float: right;
+	padding: 10px 16px 20px 0;
+}
+
+.category .buttons a{
+	padding: 3px 12px 0 24px;
+	text-decoration: none;
+	color: #fff;
+	background: url("button.png") no-repeat;
+}

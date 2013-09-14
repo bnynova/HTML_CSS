@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0; }
+  * a {
+    text-decoration: none; }
+
+body {
+  margin: 20px; }
+  body .webGalerry {
+    position: relative; }
+  body .thumbnail img {
+    border: none;
+    margin: 0 5px 5px 0; }
+  body .thumbnail:hover {
+    background-color: transparent; }
+    body .thumbnail:hover img {
+      border: none; }
+    body .thumbnail:hover span {
+      visibility: visible;
+      top: 180px;
+      left: 0px;
+      z-index: 50;
+      font-family: Arial, Trebuchet MS, tahoma, Verdana, Sans-Serif;
+      font-size: 12pt;
+      color: #6A635A; }
+  body .thumbnail span {
+    position: absolute;
+    padding: 0px;
+    border: none;
+    visibility: hidden;
+    text-decoration: none; }
+    body .thumbnail span img {
+      width: 400px;
+      height: 400px;
+      border-width: 0;
+      padding: 2px; }

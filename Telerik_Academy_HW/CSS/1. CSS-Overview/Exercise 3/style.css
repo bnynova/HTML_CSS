@@ -1,0 +1,47 @@
+body
+{
+	background: #a9a9a9;
+}
+
+a
+{
+	text-decoration: none;
+	color: black;
+}
+
+.header_text
+{
+	text-align: center;
+}
+
+ul li 
+{
+	list-style: none;
+}
+
+nav ul li a
+{
+	text-decoration: none;
+	color: #fff;
+}
+
+nav ul li:last-child
+{
+	text-decoration: underline;
+	color: #fff;
+}
+
+nav ul li a:hover
+{
+	text-decoration: none;
+	background: #d3d3d3;
+}
+h1
+{
+	color: #fafad2;
+}
+
+.last_footer
+{
+	text-align: center;
+}

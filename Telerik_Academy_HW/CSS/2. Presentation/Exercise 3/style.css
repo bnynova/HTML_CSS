@@ -1,0 +1,13 @@
+body{
+	width: 400px; 
+}
+
+div {
+    border: 1px solid red;
+    border-radius: 60px;
+    background: black;
+	padding-right: 9%;   
+}
+
+
+       

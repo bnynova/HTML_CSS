@@ -1,0 +1,99 @@
+body {
+    margin: 0 auto;
+    width: 750px;
+    font-family: sans-serif;
+}
+
+nav ul { 
+    text-align: center; 
+}
+nav li { 
+    display: inline-block; 
+}
+nav a {
+    padding: 0 1px;
+    color: #11b4f1;
+    font: 18pt/1.2 "Arial", sans-serif;
+    font-weight: bold;
+}
+
+article, section { 
+    border: 1px solid #444; 
+}
+
+article {
+    position: relative;
+    overflow: hidden;
+    padding: 10px 224px 0 0;
+}
+
+article section {
+    float: left;
+    margin: 0 0 10px 10px;
+    padding: 10px 10px;
+    width: 223px;
+    height: 122px;
+}
+
+article h2 {
+    float: left;
+    margin-top: -0.85em;
+    padding: 0 7px;
+    background: #fff;
+    font: 13pt/1.2 "Arial", sans-serif;
+    font-weight: bold;
+
+}
+
+article img{
+    
+}
+article ul {
+    float: right;
+    margin: 0;
+    padding: 6px 0 0 0;
+    list-style: none;
+}
+
+article li {
+    margin-top: 12px;
+    font: 12pt/1.2 "Arial", sans-serif;
+}
+div p{
+    float: left;
+    margin-top: 10px;
+    padding: 0;
+}
+
+article li .left{
+   
+}
+
+aside {
+    position: absolute;
+    margin-top: 40px;
+    top: 10px;
+    right: 10px;
+    width: 202px;
+    font: 15pt/1.2 "Arial", sans-serif;
+    text-align: left;
+}
+aside dl, aside dt, aside dd { 
+    margin: 0px; 
+    padding-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

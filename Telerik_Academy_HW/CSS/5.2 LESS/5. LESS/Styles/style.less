@@ -1,0 +1,166 @@
+﻿*{
+	margin: 0;
+	padding: 0;
+}
+
+@text-color: #ffffff;
+
+.linear-gradient(@from, @to) {
+    background: -moz-linear-gradient(25% 25% 90deg, @from, @to);
+    background: -webkit-gradient(linear, 0% 0%, 0% 25%, @from, @to);
+    background: -webkit-linear-gradient(@from, @to 25%);
+    background: -o-linear-gradient(@from, @to);
+}
+
+.clearfix{
+  zoom:1;
+  &:after{
+    display:block; content:"";
+    height:0; clear:both; }
+ }
+
+body, header, section, footer, article, h1, h2, input, button, p, nav, ul, li, a, strong {
+	margin:0;
+	padding:0;
+	.clearfix;
+}
+
+body {
+    .linear-gradient(#D493FE, #9215F2);
+	color: @text-color;
+    font-size: 10pt;    
+
+    header {
+    	margin: 20px;
+    
+    	& div#header-container div#logo-container{
+    		float: left;
+            position: relative;}
+
+        & div#header-container div#reg-form-container {
+            float: right;
+           
+            & div input {
+                    width: 130px;
+                    background-color: #B35EF3;
+                    border: 1px solid #603382;
+                    border-radius: 10px;
+                    padding: 2px 5px;
+                    margin: 9px 70px 0 5px;}
+
+           
+            & button {
+                font-weight: bold;
+                border: 1px solid #603382; 
+                border-radius: 10px;
+                padding: 5px 8px;
+                margin-top: 5px;
+                background-color: #B35EF3;
+                color: #fff;}
+        }
+
+
+        & nav{
+        	display: inline-block;
+        	width: 1000px;
+        	padding: 12px;
+            border: 2px solid #000;
+            border-radius: 15px;
+            margin: 22px 0 0 8px;
+
+            & ul.nav-list {
+                list-style-type: none;}
+
+            & ul li{
+            	float: left;
+                margin: 0;
+                font-size: 16pt;  
+
+                & a{
+                	text-decoration: none;
+                    padding: 0 10px 0 10px;
+                    color: @text-color;}
+            }
+        }
+    }
+    section{
+    	width: 970px;
+    	float: left;
+        margin: 0 20px 0 20px;
+
+    	& article{
+    		border: 1px solid black;
+            border-radius: 15px;
+            margin-top: 20px;
+            padding: 20px;
+
+            & header{
+                margin: 5px 0 10px 15px;
+                font-size: 13pt;}
+            
+            & footer {
+                margin: 0;
+                padding: 0;
+
+
+                & p {
+                    text-align: right;
+                    margin-top: 5px;
+                    
+                    & time {
+                        font-family: Consolas, 'Lucida Console', 'DejaVu Sans Mono', monospace;}
+                    & a {
+                        text-decoration: none;
+                        color: #cca3f8;}
+                }
+           }
+            
+    	}
+    } 
+    aside{
+    	width: 280px;
+    	float: left;
+        margin: 25px 0 0 5px;
+
+    	& > ul {
+            list-style-type: none;
+            padding: 15px;
+
+	        & > li {
+	            margin: 15px 0;
+	            padding: 15px;
+	            border: 1px solid black;
+	            border-radius: 5px;
+
+                > h2{
+                    font-size: 11pt;
+                    padding-bottom: 5px;}
+
+                & p{
+                    margin-left: 5px;
+
+                    & a{
+                        color: #aaaaaa;
+                        text-decoration: none;}
+                }
+	            
+	            & ul{
+	            	list-style-type: none;
+
+                    & li{
+                        margin: 5px 10px 0 0;
+                        margin-left: 10px;
+                        background: url(../images/li-dot.png) no-repeat;
+                        padding-left: 25px;}
+	            }
+	        }
+        }
+    }
+     footer {
+        text-align: center;
+        clear: both;
+        padding: 15px 0  25px 0;
+        color: #fff;
+    }
+
+}

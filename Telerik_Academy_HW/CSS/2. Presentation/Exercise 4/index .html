@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercises 3</title>	
+	<meta charset="utf-8">
+	
+	<link rel="stylesheet" type="text/css" href="style.css"  />
+</head>
+
+<body>
+      
+    <div id="content">
+      <div id="pic1">
+        <img src="calculator_pic.png" alt="logo_program"/>
+        Calculator
+      </div>
+      <div id="pic2">
+        <img src="exit_buttons.png" alt="exit_buttons"/>
+      </div>
+
+      <div id="menu">
+        <ul>
+            <li><p class="f_letter">View</p></li>
+            <li><p class="f_letter">Edit</p></li>
+            <li><p class="f_letter">Help</p></li>
+            
+        </ul>
+      </div>
+    
+      <div id="calculator"  class="clearfix">
+      
+        <input type="text" id="number_display" value="88500455" />
+
+        <table id="binary_display">
+              <tr>
+                  <td>0000</td>
+                  <td>0000</td>
+                  <td>0000</td>
+                  <td>0000</td>
+                  <td>0000</td>
+                  <td>0000</td>
+                  <td>0000</td>
+                  <td>0000</td>
+              </tr>
+
+              <tr  class="disabled">
+                  <td class="left">63</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td class="left">47</td>
+                  <td></td>
+                  <td></td>
+                  <td class="right">32</td>
+              </tr>
+
+              <tr>
+                  <td>0000</td>
+                  <td>0000</td>
+                  <td>0000</td>
+                  <td>0000</td>
+                  <td>0000</td>
+                  <td>0000</td>
+                  <td>0000</td>
+                  <td>0000</td>
+              </tr>
+
+              <tr  class="disabled" >
+                  <td class="left">31</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td class="left">15</td>
+                  <td></td>
+                  <td></td>
+                  <td class="right">0</td>
+              </tr>
+        </table>
+
+       
+    		  <form>
+            <div id="top_box">
+              <input type="radio">Hex<br />
+              <input type="radio" checked="checked">Dec<br />
+              <input type="radio">Oct<br />
+              <input type="radio">Bin
+            </div>
+              
+            <div id="bottom_box">
+              <input type="radio" checked="checked">Qword<br />
+              <input type="radio">Dword<br />
+              <input type="radio">Word<br />
+              <input type="radio">Byte
+            </div>
+          </form>
+    		
+
+        <table id="button_digits">
+            <tbody>
+                <tr>
+                    <td><button class="disabled"></button></td>
+                    <td><button>Mod</button></td>
+                    <td><button class="disabled">A</button></td>
+                    <td><button class="disabled">MC</button></td>
+                    <td><button class="disabled">MR</button></td>
+                    <td><button class="disabled">MS</button></td>
+                    <td><button class="disabled">M+</button></td>
+                    <td><button class="disabled">M-</button></td>
+                </tr>
+                <tr>
+                    <td><button>(</button></td>
+                    <td><button>)</button></td>
+                    <td><button class="disabled">B</button></td>
+                    <td><button>←</button></td>
+                    <td><button>CE</button></td>
+                    <td><button>C</button></td>
+                    <td><button>±</button></td>
+                    <td><button class="disabled">√</button></td>
+                </tr>
+                <tr>
+                    <td><button>Rol</button></td>
+                    <td><button>RoR</button></td>
+                    <td><button class="disabled">C</button></td>
+                    <td><button class="digits">7</button></td>
+                    <td><button class="digits">8</button></td>
+                    <td><button class="digits">9</button></td>
+                    <td><button>/</button></td>
+                    <td><button class="disabled">%</button></td>
+                </tr>
+                <tr>
+                    <td><button>Or</button></td>
+                    <td><button>Xor</button></td>
+                    <td><button class="disabled">D</button></td>
+                    <td><button class="digits">4</button></td>
+                    <td><button class="digits">5</button></td>
+                    <td><button class="digits">6</button></td>
+                    <td><button>*</button></td>
+                    <td><button class="disabled">1/x</button></td>
+                </tr>
+                <tr>
+                    <td><button>Lsh</button></td>
+                    <td><button>Rsh</button></td>
+                    <td><button class="disabled">E</button></td>
+                    <td><button class="digits">1</button></td>
+                    <td><button class="digits">2</button></td>
+                    <td><button class="digits">3</button></td>
+                    <td><button>-</button></td>
+                    <td rowspan="2"><button class="equal_number">=</button> </td>
+                </tr>
+                <tr>
+                    <td><button>Not</button></td>
+                    <td><button>And</button></td>
+                    <td><button class="disabled">F</button></td>
+                    <td  colspan="2"><button class="plus_number digits">0</button></td>
+                    <td><button class="disabled">.</button></td>
+                    <td><button>+</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+  </div>
+
+            
+
+
+</body>
+</html>
