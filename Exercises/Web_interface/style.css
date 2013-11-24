@@ -1,0 +1,281 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, img, ul, li,  form, label, article, aside, figure, footer, header, menu, nav, section{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background: url(imgs/bg.png);
+	font-size: 12pt;
+}
+ol, ul {
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+/*===========================================*/
+/*					WEB WRAPPER 				 */
+#wrapper{
+	margin: 35px auto;
+	width: 930px;
+	background: white;
+	padding: 15px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+}
+/*					end wrapper
+/*===========================================*/
+
+
+/*===========================================*/
+/*					WEB HEADER 				 */
+#web-nav{
+	margin-top: 30px;
+	background: #588c73;
+	height: 41px; /*центриране текстови елементи на един ред*/
+	line-height: 41px;
+}
+#web-nav ul li{
+	display: inline-block;
+}
+#web-nav ul li a{
+	padding: 11px;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 1em;
+}
+#web-nav ul li a:hover{
+	background: #fff;
+	color: #588c73;
+}
+/*					end header
+/*===========================================*/
+
+
+
+/*===========================================*/
+/*					WEB PORTFOLIO 		     */
+#web-portfolio{
+	margin-top: 30px;
+}
+
+#web-portfolio li:not(:first-child):not(:last-child){
+	border: solid #dedede 1px;
+	padding: 6px;
+}
+
+
+#web-portfolio .slide-img{
+	margin: 10px 0 0 38px;
+	padding: 0;
+}
+
+.slide-img li{
+	display: inline-block;
+	margin-right: 0px;
+}
+/*					end portfolio
+/*===========================================*/
+
+
+
+/*===========================================*/
+/*					WEB CONTENT 		     */
+#web-content{
+	border-top: dashed #588c73;
+	padding-top: 50px;
+	margin-top: 50px;
+}
+
+#web-content:after{
+	content: " ";
+	display: block;
+	clear: both;
+}
+#main-web{
+	width: 62%;
+	float: left;
+
+}
+#side-web{
+	width: 38%;
+	float: right;
+}
+
+.post{
+	padding: 18px 15px;
+	margin-right: 15px;
+	margin-bottom: 10px;
+	background: rgba(140, 70, 70, 0.04);
+	border: solid #dfdfdf 1px;
+}
+
+.post h2{
+	margin: 0 0 10px 0;
+	padding: 0;
+
+}
+.post h2 a{
+	color: #588c73;
+	font-size: 1.1em;	
+	padding: 0;
+}
+.post p{
+	margin: 10px 0;
+}
+
+.post a{
+	color: rgba(140, 70, 70, 0.8);
+}
+.min{
+	float: left;
+	width: 41%;
+
+}
+.max{
+	width: 90%;
+}
+.min-post:after{
+	content: " ";
+	display: block;
+	clear: both;
+}
+
+.side{
+	margin-bottom: 10px;
+	padding-top: 0px;
+}
+.side h2{
+	background: #588c73;
+	margin: 0;
+	padding: 10px;
+	color: #fff;
+}
+
+.side h2 a{
+	font-size: 1.1em;
+}
+.side p{
+	margin: 0px 0;
+	background: rgba(140, 70, 70, 0.04);
+	padding: 10px;
+}
+/*					end content
+/*===========================================*/
+
+
+/*===========================================*/
+/*					WEB FOOTER 				 */
+#web-footer{
+	background: #484848;
+	padding: 10px;
+	color: #fff;
+	text-align: center;
+}
+/*					end footer 				 */
+/*===========================================*/
+
+@media only screen and (max-width: 640px) {
+	#wrapper{
+	  	width: 99%;
+	}
+	#wrapper #web-nav{
+	  	width: 600px;
+	}
+
+	#wrapper #web-portfolio #slide img{
+	  	display: none;
+
+	}
+
+	#wrapper #web-portfolio li{
+		display: inline;
+		border: none;
+		margin: 0;
+		padding: 0;
+	}
+	#wrapper #web-portfolio li:first-child{
+	  	display: none;
+	}
+
+	#wrapper #web-portfolio li:last-child{
+	  	display: none;
+	}
+
+	#wrapper #main-web .min{
+	  	float: left;
+	  	width: 550px;
+	}
+	   
+	#wrapper .max{
+	  	float: left;
+	  	width: 550px;
+	}
+
+	#wrapper #side-web{
+		float: left;
+  		width: 580px;
+	}
+}
+@media only screen and (max-width: 480px) {
+	#wrapper{
+	  	width: 99%;
+	  	font-size: 0.7em;
+	  	margin: 0;
+		padding: 0;
+	}
+
+	#wrapper #web-nav{
+		width: 100%;
+	}
+
+	#wrapper #web-portfolio{
+		display: none;
+	}
+	
+	#wrapper #main-web .min{
+	  	float: left;
+	  	width: 397px;
+	}
+	   
+	#wrapper .max{
+	  	float: left;
+	 	width: 397px;
+	}
+
+	#wrapper #side-web{
+		float: left;
+  		width: 100%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
