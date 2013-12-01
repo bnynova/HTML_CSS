@@ -1,0 +1,247 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, 
+a, abbr, acronym, address, big, cite, code,
+article, aside, footer, header, nav, section{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+article, aside, footer, header, nav, section {
+	display: block;
+}
+body {
+	background: url(imgs/bg.png);
+	line-height: 1;
+	font-family: 'Myriad Pro', sans-serif;
+	font-size: 13px;
+}
+ul {
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+/*===========================================*/
+/*					WEB WRAPPER 				 */
+
+#wrapper{
+	margin: 0 auto;
+	width: 960px;
+	background: #fff;
+	box-shadow: 0 0 10px rgba(247, 247, 247, 0.3);
+	padding: 10px 20px;
+}
+/*					end wrapper
+/*===========================================*/
+
+/*===========================================*/
+/*					WEB HEADER 				 */
+#web-header{
+	margin-top: 54px;
+}
+#web-header h1{
+	font-size: 34px;
+	margin-left: 55px;
+	
+}
+#search{
+	border: solid #efefef 1px;
+	background: url(imgs/search_img.png) 5px 2px no-repeat;
+}
+
+#web-nav{
+	margin-top: 55px;
+	height: 46px;
+	line-height: 46px;
+}
+
+#web-nav ul{
+	border: solid #efefef 1px;
+	padding: 0;
+	
+}
+#web-nav ul li{
+	display: inline-block;
+
+}
+#web-nav ul li a{
+	padding: 13px 14px;
+	color: #c6c6c6;
+	font-size: 15px;
+	text-transform: uppercase;
+	border-right: dotted 1px #dcdcdc;
+	border-top: solid #f7f7f7 3px;
+}
+
+
+#web-nav ul li a:hover{
+	border-top: solid #549eb9 3px;
+}
+
+#web-nav ul #social{
+	margin-top: 10px;
+	margin-right: 10px;
+	float: right;
+	
+}
+/*					end header
+/*===========================================*/
+
+/*===========================================*/
+/*					WEB CONTENT 		     */
+#web-content{
+	margin-top: 30px;
+}
+
+.post-header{
+	padding-top: 50px;
+}
+
+.post .data{
+	width:60px;
+	height:60px;
+	border-radius:30px;
+	line-height:60px;
+	text-align:center;
+	color: #fff;
+	background: #549eb9;
+	float: left;
+}
+.post h2{
+	margin-left: 20px;
+	font-size: 35px;
+	color: #656464;
+	float: left;
+
+}
+.post span{
+	margin-left: 20px;
+	margin-top: 5px;
+	color: #b2b1b1;
+	float: left;
+}
+.post img{
+	margin-top: 20px;
+	border: solid #dedede 1px;
+	padding: 3px;
+}
+.post p{
+	margin: 30px 0 10px 0;
+	font-size: 13px;
+	line-height: 18px;
+}
+.post a{
+	color: #656464;
+}
+
+.info{
+	margin: 50px;
+}
+.info h3{
+	font-size: 19px;
+	color: #656464;
+}
+.info ul{
+	margin-top: 10px;
+	padding: 10px;
+}
+
+.info ul li{
+	list-style-image: url(imgs/bullets.png);
+	margin-top: 20px;
+	
+}
+
+/*					end content
+/*===========================================*/
+
+/*===========================================*/
+/*					WEB FOOTER 				 */
+
+/*					end footer 				 */
+/*===========================================*/
+
+/*===========================================*/
+/*					WEB WEB-HELPERS			 */
+.black{
+	color: #656464
+}
+.blue{
+	color: #549eb9;
+}
+
+.active:hover{
+	border-top: solid 3px red;
+}
+
+/*					end web-helpers 		 */
+/*===========================================*/ 
+
+
+/*===========================================*/
+/*					CSS GRID			 	 */
+.grid{
+	margin: auto;
+	width: 100%;
+}
+.grid:after{
+	content: " ";
+	clear: both;
+	display: block;
+}
+
+[class *="coll-"]{
+	float: left;
+}
+
+.coll-12{
+	width: 100%;
+}
+.coll-11{
+	width: 91.43%;
+}
+.coll-10{
+	width: 83%;
+}
+.coll-9{
+	width: 74.57%;
+}
+.coll-8{
+	width: 60.68%;
+}
+.coll-7{
+	width: 57.62%;
+}
+.coll-6{
+	width: 49.16%;
+}
+.coll-5{
+	width: 40.7%;
+}
+.coll-4{
+	width: 32.24%;
+}
+.coll-3{
+	width: 23.78%;
+}
+.coll-2{
+	width: 15.32%;
+}
+.coll-1{
+	width: 6.86%;
+}
+
+/*					end css grid 		     */
+/*===========================================*/ 
